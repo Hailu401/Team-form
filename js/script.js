@@ -10,7 +10,7 @@ function submitForm() {
     return;
   }
 
-  const message = `Name: ${name}\nPhone: ${phone}\nMessage: i want to join your team to do an exercise on github`;
+  const message = `Name: ${name}\nPhone: ${phone}\nMessage: i want to join your team to do an exercise on github.Please, click send to fully submit your interest`;
   const whatsappNumber = "+251961970177";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     message
