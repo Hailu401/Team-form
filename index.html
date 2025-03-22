@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+<title>Team Recruiter Form</title>
+</head>
+<body>
+
+<div class="form-container">
+    <form id="interestForm">
+        <h2>Team Recruiter Form</h2>
+        <hr>
+        <h2>Join Hailu's team </h2>
+        <p>Join Our Sub-Group to Collaborate on github and practice a given exercise for this week</p>
+        <p>I need 4 interested group member to collaborate and practice with us. if you are interested, please, submit this form and i will contact you!</p>
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number (with Country Code):</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <button type="button" onclick="submitForm()">Submit</button>
+        </div>
+        <div id="successMessage">Your info has been successfully submitted.</div>
+        <div id="err"></div>
+    </form>
+</div>
+
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
